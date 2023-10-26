@@ -21,11 +21,11 @@
 			xsmall:   [ null,      '480px'  ]
 		});
 
-	Play initial animations on page load.
+	// Play initial animations on page load.
 		$window.on('load', function() {
-			window.setTimeout(function() {
+//			 window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+//			 }, 100);
 		});
 
 	// Mobile?
